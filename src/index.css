@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital@0;1&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* Primary */
+  --primary-darker: hsl(345, 100%, 18%);
+  --primary-dark: hsl(345, 35%, 38%);
+  --primary-light: hsl(345, 22%, 59%);
+  --primary-lighter: hsl(344, 22%, 79%);
+
+  /* Secondary */
+  --secondary-darker: hsl(42, 63%, 49%);
+  --secondary-dark: hsl(43, 60%, 62%);
+  --secondary-light: hsl(42, 60%, 75%);
+  --secondary-lighter: hsl(43, 60%, 87%);
+
+  /* Accent */
+  --accent: hsl(225, 40%, 24%);
+  --muted: hsl(0, 0%, 18%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+
+  /* Greys */
+}
+
+a {
+  display: block;
+  padding: 1rem;
+}
