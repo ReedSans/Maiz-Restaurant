@@ -45,11 +45,7 @@ const Header = () => {
               <Button bg={"secdarker"} text={"pridarker"}>
                 Book Now
               </Button>
-              <img
-                src="../../images/Group-1.svg"
-                alt=""
-                className="absolute -right-10 top-[-22px] z-0"
-              />
+
             </div>
           </div>
           <MobileMenu isOpen={isOpen} toggle={toggleNavMenu} />
@@ -101,11 +97,6 @@ export const Header2 = () => {
               <Button bg={"pridarker"} text={"secdarker"}>
                 Book Now
               </Button>
-              <img
-                src="../../images/Group-1.svg"
-                alt=""
-                className="absolute -right-10 top-[-22px] z-0"
-              />
             </div>
           </div>
           <MobileMenu2 isOpen={isOpen} toggle={toggleNavMenu} />
