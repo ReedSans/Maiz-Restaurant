@@ -1,5 +1,4 @@
 import React from 'react'
-import { OutlineButton } from '../Buttons'
 
 const HeroSection = () => {
   return (
@@ -20,9 +19,15 @@ const HeroSection = () => {
             Among the best Saudi chefs in the world, serving you something
             beyond flavor
           </p>
-          <OutlineButton border="secdarker" bg="pridarker">
+          {/* <OutlineButton border="secdarker" bg="pridarker">
             Our Menu
-          </OutlineButton>
+          </OutlineButton> */}
+          <a href="/" className={`cursor-pointer border-4 border-secdarker hover:border-pridarker  
+          bg-pridarker hover:bg-secdarker font-slim text-2xl lg:text-xl text-secdarker hover:text-pridarker transition-all duration-300 ease-in-out py-5 px-9 w-full lg:w-auto text-center`} 
+          // data-aos="fade-right" data-aos-delay="1600" data-aos-duration="500"
+          >
+            {'Our Menu'}
+          </a>
           <img
             src="../../images/Vector.png"
             alt=""
